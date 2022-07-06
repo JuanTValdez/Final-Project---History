@@ -1,0 +1,5 @@
+-- seeds/03_facts.sql
+-- fact seeds
+
+INSERT INTO users (id, email, password) VALUES (1, 'rick.sandchez@gmail.com', 'picklerick');
+INSERT INTO facts (id, month, day, year, category, fact_summary, fact_long_1, fact_long_2,image_url_1, image_url_2) VALUES (1, 06, 01, 1867, "Diplomacy", "The British North America Act came into effect on July 1st, 1867", "Canada Act, also called Constitution Act of 1982, Canada’s constitution approved by the British Parliament on March 25, 1982, and proclaimed by Queen Elizabeth II on April 17, 1982, making Canada wholly independent. The document contains the original statute that established the Canadian Confederation in 1867 (the British North America Act), the amendments made to it by the British Parliament over the years, and new material resulting from negotiations between the federal and provincial governments between 1980 and 1982.", "Queen Elizabeth II gave royal assent to the Canada Act on March 29, 115 years to the day after Queen Victoria, her great-great-grandmother, had approved the federation act of 1867. Thus the last legal tie with Great Britain was severed, and Canada became a fully sovereign state.")
